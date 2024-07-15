@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDependencyFile>false</GenerateDependencyFile>
     <LangVersion>11</LangVersion>
+    <PublishDir>out</PublishDir>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
