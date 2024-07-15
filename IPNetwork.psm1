@@ -16,5 +16,5 @@ filter Get-IPNetwork {
     [Parameter(Mandatory, ValueFromPipeline)]
     [string]$Address
   )
-  [IPNetwork]::Parse($Address)
+  [IPNetwork2]::Parse($Address)
 }
